@@ -79,7 +79,7 @@ const PlanetForm: React.FC = () => {
     // eslint-disable-next-line @typescript-eslint/no-misused-promises
     <Form onSubmit={form.handleSubmit(handleSubmit)} className="mt-4">
       <Label>
-        <span>Velocidad inicial (m/s)^2</span>
+        <span>Velocidad inicial (m/s)</span>
         <Input
           type="number"
           step="any"
